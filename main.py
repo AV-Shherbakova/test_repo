@@ -1,8 +1,4 @@
-def hello():
-    print("Hello World!")
+from mathematic import print_multiply, print_sum
 
-def foo():
-    print("AHAAAAAHAHAHA!")
-
-hello()
-foo()
+print_sum()
+print_multiply()
