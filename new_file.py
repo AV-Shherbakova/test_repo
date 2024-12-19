@@ -1,6 +1,7 @@
 def add(first, second):
     return first + second
 
-
-result = add(3, 2)
-print(f'3+2=', result)
+first = 5
+second = 7
+result = add(first, second)
+print(f'Сумма {first} и {second} равна {result}')
